@@ -32,6 +32,7 @@ input {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  background-color: lightgray;
 }
 
 .header {
@@ -45,4 +46,18 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.left-links, .right-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  margin: 20px;
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
 }
